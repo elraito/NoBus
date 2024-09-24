@@ -1,0 +1,12 @@
+{
+    "manifest_version": 3,
+    "name": "NoBus PopUp",
+    "version": "1.0",
+    "permissions": [
+        "tabs", "scripting"
+    ],
+    "host_permissions": ["https://particular.net/*"],
+    "background": {
+        "service_worker": "background.js"
+    }
+}
